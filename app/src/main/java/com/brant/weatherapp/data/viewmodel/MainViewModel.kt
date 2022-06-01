@@ -21,7 +21,7 @@ class MainViewModel constructor(application: Application): AndroidViewModel(appl
       val weatherData = repo.getWeatherForCity(city)
       city.weatherData = weatherData
       repo.addCityToList(city)
-      selectedCity.postValue(city)
+      repo.setSelectedCity(city)
     }
   }
 
