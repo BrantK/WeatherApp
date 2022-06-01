@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="tab_name_current">Current</string>
+    <string name="tab_name_hourly">Hourly</string>
+    <string name="title_current_forecast">Current Forecast</string>
+    <string name="title_hourly_forecast">Hourly Forecast</string>
+    <string name="title_cities">Cities</string>
+    <string name="title_add_city">Add City</string>
+    <string name="empty_list_text">Tap the <b>add city</b> button at the top right to search for a city and add to your list. Tap on the city to see the current forecast</string>
+
+    <!-- Normally we'd store this locally somewhere but I'll put it here for demonstration purposes -->
+    <string name="api_key">AIzaSyCSAVRYz1zrEr1uH5ud8EKxfbwLYc3uLd4</string>
+</resources>

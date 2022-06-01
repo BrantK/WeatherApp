@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_current"
+        android:icon="@drawable/ic_sun_icon"
+        android:title="@string/tab_name_current" />
+
+    <item
+        android:id="@+id/navigation_hourly"
+        android:icon="@drawable/ic_clock_icon"
+        android:title="@string/tab_name_hourly" />
+
+</menu>
